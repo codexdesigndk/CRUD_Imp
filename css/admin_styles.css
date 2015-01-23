@@ -1,0 +1,87 @@
+
+html {
+    background: #131313;
+}
+
+legend {
+    margin-bottom:5px;
+}
+
+body {
+    background: #131313;
+    padding-bottom: 20px;
+}
+
+.clearfix10 {
+    content: " "; /* Older browser do not support empty content */
+    display: block;
+    height: 10px;
+    clear: both;
+}
+
+.clearfix25 {
+    content: " "; /* Older browser do not support empty content */
+    display: block;
+    height: 25px;
+    clear: both;
+}
+
+.navbar-inverse {
+    position:relative;
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #000000 0%, #141414 12%, #383838 46%, #0c0c0c 87%, #131313 98%, #00c7ff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(12%,#141414), color-stop(46%,#383838), color-stop(87%,#0c0c0c), color-stop(98%,#131313), color-stop(100%,#00c7ff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #000000 0%,#141414 12%,#383838 46%,#0c0c0c 87%,#131313 98%,#00c7ff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #000000 0%,#141414 12%,#383838 46%,#0c0c0c 87%,#131313 98%,#00c7ff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #000000 0%,#141414 12%,#383838 46%,#0c0c0c 87%,#131313 98%,#00c7ff 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #000000 0%,#141414 12%,#383838 46%,#0c0c0c 87%,#131313 98%,#00c7ff 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00c7ff',GradientType=0 ); /* IE6-9 */
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #fff;
+    background:none;
+}
+
+.inner-content {
+    border:1px solid #00c7ff;
+    border-radius:9px;
+    min-height:300px;
+    background: #f7f7f7;
+    padding:10px;
+}
+
+.settingbox {
+    border:1px solid #00c7ff;
+    border-radius:9px;
+    background: #bebebe;
+    padding:10px;
+}
+
+.container.fluid {
+    position:absolute;
+    margin-top:60px;
+}
+
+.white {
+    color: #d7d7d7 !important;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+a {
+    text-decoration: none!important;
+}
